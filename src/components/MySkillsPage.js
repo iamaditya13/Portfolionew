@@ -93,51 +93,54 @@ const MySkillsPage = () => {
 <ParticleComponent theme='light' />
             <Main>
 <Title>
-    <Design width={40} height={40} /> Designer
+    <Develope width={40} height={40} /> Tech Stack
 </Title>
 <Description>
-I love to create design which speaks, Keep it clean, minimal and simple.
+Here are the technologies I primarily use to build scalable AI SaaS products and modern web applications.
 </Description>
 <Description>
-<strong>I like to Design</strong>
-<ul>
-    <li>
-        Web Design
-    </li>
-    <li>
-        Mobile Apps
-    </li>
-</ul>
+<strong>Frontend & Design</strong>
+<p>
+Next.js, React.js, TypeScript, Tailwind CSS, Framer Motion
+</p>
 </Description>
 <Description>
-<strong>Tools</strong>
-<ul>
-    <li>
-       Figma
-    </li>
-    
-</ul>
+<strong>Backend & Infrastructure</strong>
+<p>
+Node.js, PostgreSQL, Prisma, Redis, BullMQ, Socket.io, Supabase, Vercel
+</p>
 </Description>
-
+<Description>
+<strong>AI & Integrations</strong>
+<p>
+Gemini, Groq, Razorpay
+</p>
+</Description>
             </Main>
             <Main>
 <Title>
-    <Develope width={40} height={40} /> Frontend Developer
+    <Design width={40} height={40} /> Education & Leadership
 </Title>
 <Description>
-I value business or brand for which i'm creating, thus i enjoy bringing new ideas to life.
-</Description>
-<Description>
-<strong>Skills</strong>
+<strong>Education</strong>
 <p>
-Html, Css, Js, React, Redux, Sass, Bootstrap, Tailwind, Firebase etc.
+ABES Engineering College <br/>
+B.Tech in Information Technology <br/>
+CGPA: 7.3
 </p>
 </Description>
 <Description>
-<strong>Tools</strong>
-<p>
-VScode, Github, Codepen etc.
-</p>
+<strong>Leadership</strong>
+<ul>
+    <li>
+        <strong>Creative Head</strong> at Minerva Literature Society<br/>
+        Led team of 10+ members
+    </li>
+    <li>
+        <strong>Joint Secretary</strong> at Photography Club<br/>
+        Increased participation by 30%
+    </li>
+</ul>
 </Description>
 
             </Main>

@@ -105,7 +105,7 @@ const Intro = () => {
                 <Text>
                     <h1>Hi, I'm Aditya</h1>
                     <h3>Full Stack Developer | AI SaaS Engineer</h3>
-                    <h6>Building scalable AI SaaS products that turn voice, workflows, and collaboration into real businesses.</h6>
+                    <h6>Building scalable AI SaaS products that turn voice, workflows, and collaboration into real businesses.</h6>https://github.com/iamaditya13
                 </Text>
             </SubBox>
             <SubBox>

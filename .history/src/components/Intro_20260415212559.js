@@ -103,9 +103,14 @@ const Intro = () => {
         >
             <SubBox>
                 <Text>
-                    <h1>Hi, I'm Aditya</h1>
+                    <h1>Hi, I'm Aditya Kumar</h1>
                     <h3>Full Stack Developer | AI SaaS Engineer</h3>
                     <h6>Building scalable AI SaaS products that turn voice, workflows, and collaboration into real businesses.</h6>
+                    <ButtonGroup>
+                        <CTAButton href="https://github.com/aditya-kumar" target="_blank">View Projects</CTAButton>
+                        <CTAButton href="/resume.pdf" target="_blank" primary>Download Resume</CTAButton>
+                        <CTAButton href="mailto:imaditya4work@gmail.com">Contact Me</CTAButton>
+                    </ButtonGroup>
                 </Text>
             </SubBox>
             <SubBox>

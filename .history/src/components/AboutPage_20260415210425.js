@@ -72,8 +72,8 @@ const AboutPage = () => {
             <img src={astronaut} alt="spaceman" />
         </Spaceman>    
         <Main>
-        I'm a B.Tech IT student at ABES Engineering College and a product-driven developer focused on building AI SaaS platforms, workflow automation tools, and real-time collaboration systems. <br /> <br />
-        I combine strong frontend engineering with scalable backend architecture to ship products that solve real business problems.
+        Aditya is a B.Tech IT student at ABES Engineering College and a product-driven developer focused on building AI SaaS platforms, workflow automation tools, and real-time collaboration systems. <br /> <br />
+        He combines strong frontend engineering with scalable backend architecture to ship products that solve real business problems.
         </Main>
 
         <BigTitle text="ABOUT" top="10%" left="5%" />

@@ -7,7 +7,7 @@ import PowerButton from '../subComponents/PowerButton'
 import SocialIcons from '../subComponents/SocialIcons'
 import { YinYang } from './AllSvgs'
 import Intro from './Intro'
-import Resume from '../assets/pdf/Aditya_s_Resume (1).pdf'
+;
 
 
 const MainContainer = styled.div`
@@ -145,7 +145,7 @@ const Main = () => {
                 <span>click here</span>
             </Center>
 
-            <Contact target="_blank" href={Resume} download="Aditya_Resume.pdf">
+            <Contact target="_blank" href="mailto:imaditya4work@gmail.com">
                 <motion.h2
                 initial={{
                     y:-200,
@@ -159,10 +159,10 @@ const Main = () => {
                 whileTap={{scale: 0.9}}
                 
                 >
-                    Download Resume
+                    Contact Me
                 </motion.h2>
             </Contact>
-            <BLOG to="/blog">
+            <BLOG to="/experience">
                 <motion.h2
                 initial={{
                     y:-200,

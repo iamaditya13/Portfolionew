@@ -67,33 +67,6 @@ justify-content: space-evenly;
 }
 `
 
-const ButtonGroup = styled.div`
-    display: flex;
-    gap: 1rem;
-    margin-top: 1.5rem;
-    z-index: 10;
-`
-
-const CTAButton = styled.a`
-    padding: 0.8rem 1.5rem;
-    border-radius: 8px;
-    font-size: 1rem;
-    font-weight: 600;
-    text-decoration: none;
-    cursor: pointer;
-    transition: all 0.3s ease;
-    background: ${props => props.primary ? `linear-gradient(90deg, #ff00cc, #333399)` : 'transparent'};
-    color: ${props => props.primary ? '#fff' : props.theme.body};
-    border: 2px solid ${props => props.primary ? 'transparent' : props.theme.body};
-    
-    &:hover {
-        transform: translateY(-3px);
-        box-shadow: ${props => props.primary ? '0 10px 20px rgba(255, 0, 204, 0.3)' : '0 10px 20px rgba(0, 0, 0, 0.1)'};
-        background: ${props => props.primary ? `linear-gradient(90deg, #ff00cc, #333399)` : props.theme.body};
-        color: ${props => props.primary ? '#fff' : props.theme.text};
-    }
-`
-
 const Intro = () => {
     return (
         <Box
@@ -103,7 +76,7 @@ const Intro = () => {
         >
             <SubBox>
                 <Text>
-                    <h1>Hi, I'm Aditya</h1>
+                    <h1>Hi, I'm Aditya Kumar</h1>
                     <h3>Full Stack Developer | AI SaaS Engineer</h3>
                     <h6>Building scalable AI SaaS products that turn voice, workflows, and collaboration into real businesses.</h6>
                 </Text>
