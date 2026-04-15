@@ -1,8 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import { DarkTheme } from '../components/Themes'
-
-
+import { NavLink } from 'react-router-dom'
 
 
 const Logo = styled.h1`
@@ -14,13 +13,19 @@ position: fixed;
 left: 2rem;
 top: 2rem;
 z-index:3;
+
+&:hover {
+    cursor: pointer;
+}
 `
 
 const LogoComponent = (props) => {
     return (
-        <Logo color={props.theme}>
-          ADI
-        </Logo>
+        <NavLink to="/">
+            <Logo color={props.theme}>
+                ADI
+            </Logo>
+        </NavLink>
     )
 }
 
