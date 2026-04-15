@@ -2,10 +2,11 @@ import React, { useEffect, useState } from 'react'
 import styled from 'styled-components'
 import img from "../assets/Images/patrick-tomasso-Oaqk7qqNh_c-unsplash.jpg"
 import LogoComponent from '../subComponents/LogoComponent'
+import BackButton from '../subComponents/BackButton'
 import SocialIcons  from '../subComponents/SocialIcons'
 
-import {Blogs} from '../data/BlogData';
-import BlogComponent from './BlogComponent'
+import {Experiences} from '../data/ExperienceData';
+import ExperienceComponent from './ExperienceComponent'
 import AnchorComponent from '../subComponents/Anchor'
 import BigTitle from "../subComponents/BigTitlte"
 import { motion } from 'framer-motion'
@@ -55,7 +56,7 @@ const container = {
   
   }
 
-const BlogPage = () => {
+const ExperiencePage = () => {
 
     const [numbers, setNumbers] = useState(0);
 
@@ -76,14 +77,15 @@ const BlogPage = () => {
         >
             <Container>
                 <LogoComponent />
+                <BackButton />
                 <SocialIcons />
                 <AnchorComponent number={numbers}/>
 <Center>
 <Grid>
 
 {
-    Blogs.map(blog => {
-        return <BlogComponent key={blog.id} blog={blog} />
+    Experiences.map(experience => {
+        return <ExperienceComponent key={experience.id} experience={experience} />
     })
 }
 </Grid>
@@ -95,4 +97,4 @@ const BlogPage = () => {
     )
 }
 
-export default BlogPage
+export default ExperiencePage

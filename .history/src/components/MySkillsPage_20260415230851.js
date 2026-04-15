@@ -134,9 +134,11 @@ CGPA: 7.3
 <ul>
     <li>
         <strong>Creative Head</strong> at Minerva Literature Society<br/>
+        Led team of 10+ members
     </li>
     <li>
         <strong>Joint Secretary</strong> at Photography Club<br/>
+        Increased participation by 30%
     </li>
 </ul>
 </Description>

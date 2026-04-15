@@ -4,6 +4,7 @@ import {DarkTheme} from './Themes';
 
 
 import LogoComponent from '../subComponents/LogoComponent';
+import BackButton from '../subComponents/BackButton';
 import SocialIcons from '../subComponents/SocialIcons';
 import ParticleComponent from '../subComponents/ParticleComponent';
 import BigTitle from '../subComponents/BigTitlte'
@@ -63,6 +64,7 @@ const AboutPage = () => {
 <Box>
 
 <LogoComponent theme='dark'/>
+<BackButton />
 <SocialIcons theme='dark'/>
 <ParticleComponent theme='dark' />
 

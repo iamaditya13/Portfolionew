@@ -35,7 +35,7 @@ right: calc(1rem + 2vw);
 text-decoration: none;
 z-index:1;
 `
-const BLOG = styled(NavLink)`
+const EXPERIENCE = styled(NavLink)`
 color: ${props => props.theme.text};
 position: absolute;
 top: 50%;
@@ -160,7 +160,7 @@ const Main = () => {
                     Download Resume
                 </motion.h2>
             </Contact>
-            <BLOG to="/blog">
+            <EXPERIENCE to="/experience">
                 <motion.h2
                 initial={{
                     y:-200,
@@ -175,7 +175,7 @@ const Main = () => {
                 >
                     Experience
                 </motion.h2>
-            </BLOG>
+            </EXPERIENCE>
             <WORK to="/work" click={+click}>
                 <motion.h2
                 initial={{

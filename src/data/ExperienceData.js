@@ -1,6 +1,6 @@
-// blog data
+// experience data
 
-export const Blogs = [
+export const Experiences = [
     {
         id:1,
         name:"Frontend Developer Intern — Vinkura AI",

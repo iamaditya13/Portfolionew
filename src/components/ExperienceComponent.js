@@ -70,8 +70,8 @@ const Item = {
   },
 };
 
-const BlogComponent = (props) => {
-  const { name, tags, date, description } = props.blog;
+const ExperienceComponent = (props) => {
+  const { name, tags, date, description } = props.experience;
   return (
     <Container variants={Item}>
       <Box>
@@ -88,4 +88,4 @@ const BlogComponent = (props) => {
   );
 };
 
-export default BlogComponent;
+export default ExperienceComponent;

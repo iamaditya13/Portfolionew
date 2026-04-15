@@ -4,6 +4,7 @@ import { DarkTheme } from "./Themes";
 import { motion } from "framer-motion";
 
 import LogoComponent from "../subComponents/LogoComponent";
+import BackButton from "../subComponents/BackButton";
 import SocialIcons from "../subComponents/SocialIcons";
 
 import { Work } from "../data/WorkData";
@@ -76,6 +77,7 @@ const WorkPage = () => {
     <ThemeProvider theme={DarkTheme}>
       <Box>
         <LogoComponent theme="dark" />
+        <BackButton />
         <SocialIcons theme="dark" />
 
         <Main ref={ref} variants={container} initial="hidden" animate="show">
