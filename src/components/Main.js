@@ -7,7 +7,7 @@ import PowerButton from '../subComponents/PowerButton'
 import SocialIcons from '../subComponents/SocialIcons'
 import { YinYang } from './AllSvgs'
 import Intro from './Intro'
-import Resume from '../assets/pdf/Aditya_s_Resume (1).pdf'
+import Resume from '../assets/pdf/Aditya_s_Resume (4).pdf'
 
 
 const MainContainer = styled.div`
